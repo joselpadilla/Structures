@@ -1,7 +1,5 @@
 package com.challenges.linkedlist;
 
-import java.util.Arrays;
-
 public class BinaryToDecimal {
     public static void main(String[] args) {
         LinkedList myLinkedList = new LinkedList(1);

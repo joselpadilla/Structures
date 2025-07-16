@@ -1,7 +1,5 @@
 package com.challenges.linkedlist;
 
-import java.util.Arrays;
-
 public class MiddleNode {
 
     public static void main(String[] args) {
