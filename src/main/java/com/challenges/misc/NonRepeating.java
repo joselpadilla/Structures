@@ -7,15 +7,15 @@ import java.util.Map;
 public class NonRepeating {
 
         public static Character firstNonRepeatingChar(String s) {
-            HashMap<Character, Integer> characters = new LinkedHashMap<>();
+            var characters = new LinkedHashMap<Character, Integer>();
 
-            char[] ca = s.toCharArray();
+            var ca = s.toCharArray();
 
             for(char c: ca) {
                 characters.merge(c, 1, Integer::sum);
             }
 
-            for(Map.Entry<Character, Integer> entry: characters.entrySet()) {
+            for(var entry: characters.entrySet()) {
                 if(entry.getValue() == 1) {
                     return entry.getKey();
                 }

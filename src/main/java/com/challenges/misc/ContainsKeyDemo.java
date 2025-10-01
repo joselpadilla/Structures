@@ -13,6 +13,6 @@ public class ContainsKeyDemo {
 
         int myKey = 2;
 
-
+        System.out.printf("Contains key %d? %s", myKey, map.containsKey(2));
     }
 }
